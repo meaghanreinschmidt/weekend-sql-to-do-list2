@@ -4,7 +4,7 @@
 
 *Duration: 2 Weeks*
 
--EDIT WHEN COMPLETE-
+Here is a simple to-do application that allows you to track all of your daily tasks!
 
 -Deployed version of app here-
 
@@ -12,13 +12,34 @@
 
 ## Prerequisites
 
+- [Node.js](https://nodejs.org/en/)
+
 ## Installation
 
+1. Create a database in Postico named `weekend-to-do-app`
+2. Run `npm install` in your terminal
+3. Run `npm start` in your terminal
+4. Navigate to `localhost:5001` in browser (change port number if necessary)
+   
 ## Usage
+1. As a user, I want to be able to enter a task into the input field and add it to the To-Do list. 
+2. As a user, I want to click the checkmark to mark my task complete.
+3. As a user, I want to click the trash can icon to delete my task from the list.
 
 ## Built With
 
+1. ![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+2. ![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+3. ![image](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+4. ![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+5. ![image](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+6. ![image](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+7. ![image](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+8. ![image](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+   
 ## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Acknowledgement
 
@@ -60,11 +81,13 @@ If you have suggestions or issues, please email me at [mreinschmidt@hotmail.com]
 - [X] Create DELETE request in server code
 - [X] Create complete button functionality in client.js
 - [X] Create PUT request in server code
-- [X] Create if statement to change task to green when completed
+- [X] Create if statement to change task to line-through when completed
 ### Stretch Goals
 
-- [ ] Switch styling to Bootstrap
+- [X] Switch styling to Bootstrap
   
 ### Other
-- [X] Create dataase.js file
+- [ ] Finalize README
+- [ ] Add License
+- [X] Create datase.js file
 - [ ] Deploy to Heroku 

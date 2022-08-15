@@ -6,7 +6,7 @@
 
 Here is a simple to-do application that allows you to track all of your daily tasks!
 
--Deployed version of app here-
+[Deployed version of app](https://secure-ocean-39272.herokuapp.com/)
 
 ## Screenshot
 
@@ -89,7 +89,7 @@ If you have suggestions or issues, please email me at [mreinschmidt@hotmail.com]
 - [X] Switch styling to Bootstrap
   
 ### Other
-- [ ] Finalize README
-- [ ] Add License
+- [X] Finalize README
+- [X] Add License
 - [X] Create datase.js file
-- [ ] Deploy to Heroku 
+- [X] Deploy to Heroku 

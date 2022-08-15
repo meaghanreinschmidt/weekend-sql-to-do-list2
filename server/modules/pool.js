@@ -5,6 +5,7 @@
 */
 
 const pg = require('pg');
+const url = require('url');
 
 let config = {};
 

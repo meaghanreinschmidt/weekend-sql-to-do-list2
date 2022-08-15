@@ -31,17 +31,17 @@ function getTasks() {
         $('#taskTableBody').empty();
         for (let task of response) {
             if (task.complete === 1) {
-                color = 'complete-color'
+                completed = 'complete-task';
             } else {
-                color = '';
+                completed = '';
             }
             $('#taskTableBody').append(`
                 <tr>
-                    <td class="${color}">
+                    <td class="${completed}">
                         ${task.task}
-                        <button class="task-complete" data-id="${task.id}">&#10004</button>
-                        <button class="task-delete" data-id="${task.id}">&#xF5DE</button>
                     </td>
+                    <td><button class="task-complete btn btn-outline-secondary btn-light btn-sm m-0" data-id="${task.id}"><i class="fa fa-check" style="color: green"></i></button></td<
+                    <td><button class="task-delete btn btn-outline-secondary btn-light btn-sm m-0" data-id="${task.id}"><i class="fa fa-trash" style="color: red"></i></button></td>
                 </tr>
             `);
         }

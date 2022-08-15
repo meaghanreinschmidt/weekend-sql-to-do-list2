@@ -9,6 +9,9 @@
     <script src="scripts/client.js"></script>
     <!-- Google Font (optional) -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Icon Library -->
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="styles/style.css">
     <title>To Do App</title>
@@ -27,12 +30,12 @@
             </h1>
         </div>
 
-        <div class="input-group input-group-sm mx-auto mb-3 w-50 mt-5">
+        <div class="input-group input-group-sm mx-auto mb-3 w-75 mt-5">
             <input type="text" id="create-task" class="form-control" placeholder="Add a task.">
-            <button class="btn btn-outline-secondary" type="button" id="task-submit">+</button>
+            <button class="btn btn-outline-secondary btn-dark" type="button" id="task-submit"><i class="fa fa-arrow-right"></i></i></button>
         </div>
 
-        <table class="table table-dark table-striped mx-auto w-50 mt-5">
+        <table class="table table-dark table-striped mx-auto w-75 mt-5">
             <thead>
                 <tr>
                     <th scope="col">To Do:</th>
@@ -40,11 +43,7 @@
                 </tr>
             </thead>
             <tbody id="taskTableBody">
-                <tr class="table-dark">
-                    <td>Laundry</td>
-                    <td></td>
-                    <td></td>
-                </tr>
+                <tr class="table-dark"></tr>
             </tbody>
         </table>
     </div>

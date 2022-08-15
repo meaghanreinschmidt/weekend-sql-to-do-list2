@@ -1,7 +1,7 @@
 const express = require('express');
 // console.log('Is nodemon working?')
 const app = express();
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5000;
 
 // This is how our index.html appears
 app.use(express.static('server/public'));

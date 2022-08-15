@@ -1,0 +1,7 @@
+body {
+    background: linear-gradient(to right, rgb(71, 70, 70), rgb(15, 55, 55));
+}
+
+.container {
+    text-align: center;
+}

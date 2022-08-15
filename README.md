@@ -10,6 +10,8 @@ Here is a simple to-do application that allows you to track all of your daily ta
 
 ## Screenshot
 
+<img width="965" alt="Screen Shot 2022-08-15 at 2 55 57 PM" src="https://user-images.githubusercontent.com/98852538/184708026-a24e7ea9-4674-4f2f-83d0-77c87c174bbe.png">
+
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/en/)

@@ -26,7 +26,7 @@ if (process.env.DATABASE_URL) {
     config = {
         host: 'localhost',
         port: 5432,
-        database: 'weekend-to-do-app', // CHANGE THIS LINE to match your local database name!
+        database: process.env.DATABASE_NAME || 'weekend-to-do-app' // CHANGE THIS LINE to match your local database name!
     };
 }
 
